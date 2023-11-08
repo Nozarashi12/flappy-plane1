@@ -1,0 +1,207 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+    
+}
+
+
+.name1{
+    color:red;
+    font-size: 60px;
+    margin-left: 550px;
+    margin-top: 200px;
+}
+.name2{
+    color:white;
+    font-size: 60px;
+    margin-left: 670px;
+    margin-top: -110px;
+}
+.name3{
+    color:blue;
+    font-size: 60px;
+    margin-left: 870px;
+    margin-top: -100px;
+}
+
+.button{
+    width:300px;
+    height: 600px;
+    margin-left: 670px;
+    margin-top:150px;
+}
+button{
+    margin-left: 20px;
+    border-radius: 40px;
+    padding:10px;
+    width: 150px;
+    font-size: 20px;
+    color:black;
+    background-color: white;
+}
+.button a{
+    color: black;
+}
+input{
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-top: 50px;
+    margin-right: 80px;
+}
+.I{
+    border: 1px solid white;
+    color: white;
+    margin-top: 20px;
+    margin-left: 1200px;
+    background-color: black;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.I:hover {
+    background-color: white;
+    
+  }
+  .I:hover a {
+    color: black;
+  }
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.head{
+    color: white;
+    margin-left:650px;
+    margin-top: 100px;
+}
+.box{
+    width:1000px;
+    height: fit-content;
+    padding: 30px;
+    border: 1px solid white;
+    margin-left: 250px;
+    /* margin-top: 80px; */
+
+}
+li{
+    font-size: 30px;
+    color: white;
+    margin-left: 60px;
+}
+.about{
+    color: white;
+    margin-top: 100px;
+    margin-left:650px;
+    
+    
+}
+.me{
+    font-size: 30px;
+    color: white;
+    margin-left: 20px;
+}
+.back{
+    background-color: black;
+    border: 1px solid white;
+    margin-top:20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.back:hover{
+    background-color: white;
+}
+.back:hover a{
+    color:black;
+}
+.play{
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .play:hover {
+    background-color: #e74c3c;
+  }
+
+.things{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* border: 1px solid white; */
+}
+
+  .over{
+    color: white;
+    position: relative;
+    left: 550px;
+    top: 150px;
+  }
+  
+.flag{
+    height: 300px;
+    width: 450px;
+    margin-top: 250px;
+    margin-left: 300px;
+    /* border: 1px solid white; */
+
+}
+  
+.score{
+    position: relative;
+    color: white;
+    right: 380px;
+    top: 650px;
+}
+.tryagain{
+    position: relative;
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    border:1px solid white;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.tryagain:hover{
+    background-color: white;
+}
+.tryagain:hover a{
+    color:black;
+}
+
+
+
+
+.game{
+    width:820px;
+    height:790px;
+    position: absolute;
+    /* border: 1px solid white; */
+    margin-left: 350px;
+    position: absolute;
+}
+.bg{
+    width: 800px;
+    height:730px;
+    margin-left: 10px;
+    position: absolute;
+}
+.ground{
+    background-color: rgb(9, 9, 59);
+    width:820px;
+    height:100px;
+    position:absolute;
+    bottom:0;
+}
+.plane{
+    background-image:url('http://71.19.146.161/assets/plane.png ');
+    background-color: transparent;
+     position: absolute;
+     width:99px;
+     height:24px;
+     /* margin-left: 50px; */
+}
